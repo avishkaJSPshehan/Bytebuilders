@@ -37,10 +37,10 @@ const Hero = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <div className="inline-flex items-center px-4 py-2 bg-purple-100 rounded-full text-purple-800 text-sm font-medium mb-6">
+          {/* <div className="inline-flex items-center px-4 py-2 bg-purple-100 rounded-full text-purple-800 text-sm font-medium mb-6">
             <Sparkles className="h-4 w-4 mr-2" />
             Leading SAAS Development Company
-          </div>
+          </div> */}
           
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-7xl mb-6">
             Build Your Dream
@@ -101,11 +101,11 @@ const Hero = () => {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-4xl font-bold text-purple-600 mb-2">50+</div>
+              <div className="text-4xl font-bold text-purple-600 mb-2">5+</div>
               <div className="text-gray-600">Projects Delivered</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-magenta-600 mb-2">99%</div>
+              <div className="text-4xl font-bold text-magenta-600 mb-2">95%</div>
               <div className="text-gray-600">Client Satisfaction</div>
             </div>
             <div className="text-center">

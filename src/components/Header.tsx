@@ -28,9 +28,10 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-br from-purple-600 to-magenta-600 p-2 rounded-lg">
+            {/* <div className="bg-gradient-to-br from-purple-600 to-magenta-600 p-2 rounded-lg">
               <Code className="h-6 w-6 text-white" />
-            </div>
+            </div> */}
+            <img src="Images/Logo/icon.png" alt="Description" width="100" className='mt-4' />
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-magenta-600 bg-clip-text text-transparent">
               ButeBuilders
             </span>
@@ -52,10 +53,9 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4">
             <button
               onClick={() => scrollToSection('contact')}
-              className="bg-gradient-to-r from-purple-600 to-magenta-600 text-white px-6 py-2 rounded-full hover:shadow-lg transform hover:scale-105 transition-all duration-200 flex items-center space-x-2"
+              className="bg-gradient-to-r from-purple-600 to-magenta-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200 flex items-center space-x-2"
             >
-              <span>Get Started</span>
-              <ArrowRight className="h-4 w-4" />
+              <span>Talk to Us</span>
             </button>
           </div>
 
